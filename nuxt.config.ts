@@ -41,5 +41,10 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
+  },
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
   }
 })
